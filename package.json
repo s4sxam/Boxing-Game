@@ -1,0 +1,19 @@
+{
+  "name": "iron-ring",
+  "version": "0.1.0",
+  "description": "Browser boxing game — physics-first scaffold",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.169.0",
+    "@dimforge/rapier3d-compat": "^0.14.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "typescript": "^5.6.0"
+  }
+}
